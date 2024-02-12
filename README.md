@@ -2,8 +2,6 @@
 
 A classic Tic Tac Toe game implemented using React.
 
-![Tic Tac Toe](screenshot.png)
-
 ## Features
 
 - Two players can play against each other.
