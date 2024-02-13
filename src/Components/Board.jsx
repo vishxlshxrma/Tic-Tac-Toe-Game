@@ -47,7 +47,8 @@ const Board = () => {
     return (
         <div className="board-container">
             {isWinner ? (
-                <>{isWinner} won the game. <button onClick={handleReset}>Play Again</button>
+                <>{isWinner} won the game.
+                <button type="button" class="btn btn-success" onClick={handleReset}>Play Again</button>
                 </>
             ) : (
                 <>
